@@ -1,0 +1,45 @@
+.tweetpage-container{
+    width: 100%;
+    min-height: auto;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tweetpage-contain{
+    width: 100%;
+    min-height: auto;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+}
+
+.tweetpage-tweets{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #000;
+   
+}
+
+
+.tweetpage-tweet{
+    width: 100%;
+    min-height: 20vh;
+    background-color: #000;
+    border-bottom: 2px solid #222527;
+    margin-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.tweetpage-tweetpart{
+    background-color: #000;
+    width: 95%;
+    margin-left: 1vw;
+    min-height: 5vh;
+}
+
+.tweetpage-tweetimage{
+    max-height: 100vh;
+}

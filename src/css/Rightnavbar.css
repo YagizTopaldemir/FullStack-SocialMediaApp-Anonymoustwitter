@@ -1,0 +1,137 @@
+.rightnavbar-container{
+    overflow-x: hidden;
+    position: fixed;
+    width: 33vw;
+    height: auto;
+    min-height: 100vh;
+    background-color: #000;
+    right: 0;
+    top: 0;
+    border-left: 2px solid #222527;
+   
+}
+
+.rightnavbar-contain{
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+  flex-direction: column;
+}
+
+.rightnavbar-sub{
+    width: 80%;
+    height: 170px;
+    background-color: #000;
+    border:2px solid #222527; 
+    border-radius: 20px;
+    color: white;
+    padding: 0 15px 15px 15px;
+    margin-top: 15px;
+}
+
+.sub-but{
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #1d9bf0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.sub-but:hover{
+    opacity: 0.9;
+}
+
+.search-navbar{
+    display: flex;
+    flex-direction: row;
+    background-color: #202327;
+    width: 80%;
+    height:45px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightnavbar-searchimage{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightnavbar-searchinput{
+    border:0;
+    width: 90%;
+    height: 40px;
+    padding-left: 10px;
+    outline: none;
+    color: white;
+    background-color: #202327;
+}
+
+.rightnavbar-trends{
+    width: 80%;
+    height: 35%;
+
+    margin-top: 15px;
+    border-radius: 20px;
+    background-color: #000;
+    border:2px solid #222527;
+    overflow: hidden;
+    padding-left: 15px;
+
+}
+
+.rightnavbar-trends h3{
+    color: white;
+}
+
+.rightnavbar-trendcat{
+    background-color: #000;
+    width: 95%;
+    height: auto;
+    overflow: hidden;
+    padding-bottom: 20px;
+    
+}
+
+.trend{
+    background-color: #000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.trend:hover{
+    opacity: 0.6;
+}
+
+.trendbrand{
+    color: rgba(255, 255, 255, 0.452);
+}
+
+.trendhastags{
+    color: white;
+    font-size: 18px;
+}
+
+.trendpostcount{
+    color: rgba(255, 255, 255, 0.452);
+}
+
+.trendsforyou{
+    color: white;
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: 600;
+}
